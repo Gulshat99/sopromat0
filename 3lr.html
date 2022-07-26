@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset = "UTF-8">
+		<title>Сопромат</title>
+		<link rel = "shortcut icon" href="./ico.png" type="image/png">
+        <link rel = "stylesheet" href = "./33lr.css">
+
+		
+	</head>
+	<body style = 'margin: 0px;'>
+		<div class = 'nav'>
+			<div class = 'options'>
+				
+
+				<div class='balk_load'>
+					<h3>Задание 1</h3>
+					
+
+					
+					<p>Сила F (кН):<input type="number" min="0" id='zad1_F' value="1.5"></p>					
+					<p>Число плоскостей среза:<input type="number" min="1" max="2" id='zad1_i' value="1"></p>
+					<p>Число заклепок по горизонтали:<input type="number" min="1" max="5" id='gor_z' value="1"></p>
+					<p>Число заклепок по вертикали:<input type="number" min="1" max="4" id='ver_z' value="1"></p>
+					<p>Материал болта:<select  id='zadMv'>
+						<option>Ст0</option>
+						<option selected>Ст2</option>
+						<option>Ст3</option>
+					  </select></p>
+					<p><input type="button" value=" Рассчитать " id='zad1'></p>
+				</div>
+			</div>
+			<div class = main>
+				<canvas id = 'cnvs'>
+					<div id = 'diagram'></div>
+				</canvas>
+			</div>
+			<div id='output'>
+				<body style = 'margin: 0px;'>
+					<div class = 'nav'>
+						<div class = 'options'>
+							<div class='balk_len'>
+					<h3>Задание 2</h3>
+
+					<p>Минимальный диаметр заклепки (мм):<input type="number" min="0" id='zad2_d'value="2"></p>
+					<p>Число пл-ей среза i:<input type="number" min="1" max="2" id='zad2_i'value="1"></p>
+					<p>Число заклепок по горизонтали:<input type="number" min="1" max="3" id='gor2_z'value="1"></p>
+					<p>Число заклепок по вертикали:<input type="number" min="1" max="4" id='ver2_z'value="1"></p>
+					<p>Материал болта:<select  id='zadMv2'>
+						<option>Ст0</option>
+						<option selected>Ст2</option>
+						<option>Ст3</option>
+					  </select></p>
+					<p><input type="button" value=" Рассчитать " id='zad2'></p>
+				</div>
+			</div>
+			<div id='output'>
+			<body style = 'margin: 0px;'>
+				<div class = 'nav'>
+					<div class = 'options'>
+						<div class='balk_len'>
+							
+		
+
+
+		
+	</body>
+	
+	<script charset="utf-8" type="text/javascript" SRC="./33lr.js"></script>
+
+	<div>
+	
+		<tr valign=center>
+			<td colspan=4>
+				<center><font color="#f0f8ff">
+					&copy;<strong> </strong> Фаизова Гульшат Рашидовна, 2021.
+					
+
+			</td>
+		</tr>
+		<td>					<font color="#f0f8ff" id="Pol">Политика</font></a>
+		</font></center></td>
+	</div>
+</html>

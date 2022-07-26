@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(66, 66, 66);
+}
+@media (min-width : 1000px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+    }
+}
+.lr3 {
+     float: left; /*Задаем обтекание*/
+     line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+     font-size: 40px;
+     background: rgb(66, 66, 66);
+     color: white;
+     margin-top: 60px;
+     width: 420px; /*Фиксируем ширину блока*/
+     margin-right: 10px;
+     text-align: center; /*Центрируем текст по горизонтали*/
+    }
+.balk_len, .balk_support, .balk_force, .balk_load, .balk_moment, .clear_cnvs{
+    background-color: rgb(84, 84, 84);
+    margin: 10px;
+    border-radius: 10px;
+}
+#cnvs{
+    background-color: rgb(211, 214, 210);
+    image-rendering: pixelated;
+    width: 100%;
+    height: 135vh; 
+}
+.footer-menu{
+    padding:3em 0;
+    box-shadow: 0 0px 10px #ccc;
+    background-color: #fff;
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu ul li{
+    display:inline-block;
+}
+.footer-menu ul li a{
+    color:#6E6E6E;
+    margin:0 1em;
+    font-size:1.2rem;
+    text-decoration:none;
+}
+.footer-menu ul li a:hover{
+    color:#EE7B00;
+}
+p.copy-right{
+    font-size:1em;
+}
+p.copy-right a{
+    color:#D46E00;
+    text-decoration:none;
+}
+p.copy-right a:hover{
+    color:#25221C;
+}
+.main{
+    flex : 2;
+}
+#disclaimer{
+    display: flex;
+    height : 40%;
+    position: fixed;
+    z-index: 100;
+    top: 20%; right: 30%; left: 30%;
+    background-color: rgb(100, 100, 100);  
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    display: none; 
+}
+#disclaimer p{
+    padding: 40px;
+    overflow: scroll;
+    width: 100%;
+    height: 55%; 
+    font-size: 18px;
+    word-wrap: normal;
+    text-indent: 40px;
+}
+#accept{
+    font-size: 28px;
+    justify-self: center;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+#accept:hover{
+    font-size: 28px;
+    justify-self: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.options{
+    flex : 1;
+    color: whitesmoke;
+}
+.options > div{
+    padding-left: 25px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+.options p{
+    flex : 1;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: max-content;
+    margin-right: 25px;
+}
+.options button{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 200;
+    cursor: pointer;
+    margin-bottom: 5px;
+    outline: none;
+    padding-right: 5px;
+    text-align: center;
+}
+.options img:hover, .options button:hover{
+    opacity: 0.5;
+}
+.put_arrows{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#force, #load, #moment{
+    padding-right: 15px;
+}
+img:hover{
+    cursor: pointer;
+}
+#output{
+    flex : 1;
+    color: whitesmoke;
+    justify-content: center;
+}
+input{
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    padding-left: 10px;
+    outline: none;
+}
+#output button{
+    border-radius: 12px;
+    background-color: whitesmoke;
+    border: thin;
+    outline: none;
+}
+#output button:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+#output p{
+    background-color: rgb(84, 84, 84);
+    margin: 10px;
+    border-radius: 10px;
+
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    flex-basis: max-content;
+}
+
+
